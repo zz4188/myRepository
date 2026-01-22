@@ -1,0 +1,44 @@
+# GUI 框架
+PyQt6==6.6.1
+PyQt6-Qt6==6.6.1
+PyQt6-sip==13.6.0
+
+# 网络请求
+requests==2.31.0
+urllib3==2.1.0
+
+# 浏览器自动化
+selenium==4.16.0
+webdriver-manager==4.0.1
+
+# 定时任务
+APScheduler==3.10.4
+tzlocal==5.2
+python-dateutil==2.8.2
+
+# 数据库
+# sqlite3 是 Python 标准库，无需安装
+
+# 加密
+cryptography==41.0.7
+
+# 工具库
+beautifulsoup4==4.12.2
+lxml==4.9.3
+Pillow==10.1.0
+
+# 日志
+colorlog==6.8.0
+
+# 打包工具
+PyInstaller==6.3.0
+
+# 配置管理
+pyyaml==6.0.1
+
+# 异步支持
+aiohttp==3.9.1
+asyncio==3.4.3
+
+# 其他
+python-dotenv==1.0.0

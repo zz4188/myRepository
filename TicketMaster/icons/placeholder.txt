@@ -1,0 +1,15 @@
+这是一个占位文件。
+
+由于 AI 无法生成实际的二进制图标文件，请用户自行准备图标。
+
+可以使用以下方式获取图标：
+
+1. 从网上搜索免费可商用的 .ico 图标文件
+2. 创建一个简单的 256x256 的 PNG 图片，然后使用在线工具转换为 ICO 格式
+3. 使用 Windows 系统自带图标或 PyInstaller 默认图标
+
+将准备好的图标文件命名为 `app_icon.ico` 并放置在此目录下。
+
+如果暂时没有图标，可以：
+1. 修改 TicketMaster.spec 文件，将 `icon='icons/app_icon.ico'` 改为 `icon=None`
+2. 使用 PyInstaller 打包时使用默认图标
